@@ -11,13 +11,13 @@
 ## Typical pattern used here:
  MVC-like separation:
 
-### Model = data objects (Staff, Manager, MenuItem, OrderDetail).
+#### Model = data objects (Staff, Manager, MenuItem, OrderDetail).
 
-### View = UserInterface_GUI (Swing code).
+#### View = UserInterface_GUI (Swing code).
 
-### Controller = Controller_GUI (mediates between view and model, calls Database).
+#### Controller = Controller_GUI (mediates between view and model, calls Database).
 
-### Persistence here is file-based (plain text files), not an RDBMS.
+#### Persistence here is file-based (plain text files), not an RDBMS.
 
  “It uses an event-driven Swing GUI, a controller layer that handles business logic, and a simple file-based database for storage.”
 
